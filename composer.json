@@ -1,10 +1,10 @@
 {
-  "name": "phper666/mongo-db",
+  "name": "bvtvd/mongo-db",
   "license": "MIT",
   "authors": [
     {
-      "name": "liyuzhao",
-      "email": "562405704@qq.com"
+      "name": "hans",
+      "email": "hans01@foxmail.com"
     }
   ],
   "require": {
