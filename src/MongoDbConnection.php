@@ -285,7 +285,7 @@ class MongoDbConnection extends Connection implements ConnectionInterface
                 $data[] = $document;
             }
             
-            $result['total'] = $this->collection($namespace, $collectionOptions)->countDocuments($filter, $options);
+            $result['total'] = $this->collection($namespace, [])->countDocuments($filter, []);
             $result['page_no'] = $currentPage;
             $result['page_size'] = $limit;
             $result['rows'] = $data;
